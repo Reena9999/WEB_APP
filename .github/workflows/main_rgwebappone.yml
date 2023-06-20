@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'RGWebAppOne'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B63F360462CB448D983CE54E82ADE451 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B379DC21793C4CD59C88B8D4D8B229AA }}
           package: '*.jar'
